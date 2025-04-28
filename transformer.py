@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 
 def transform(file_path, label_value):
 
@@ -7,16 +8,26 @@ def transform(file_path, label_value):
 
     # Create an empty list to hold the new entries
     transformed_data = []
+    start_time = None
 
-    for data_point in data:
+    for data_point in data[:3000]:
         data_point_attr = {}
-        # Iterate over the sensor data (exclude timestamp)
         for sensor, readings in data_point.items():
-            if sensor != "timestamp":  # Skip the timestamp entry
-                # Create a new dictionary with the sensor readings and add a label
-                entry = readings.copy()  # Copy the sensor data
+            if sensor == "timestamp":
+                    current_time = datetime.fromisoformat(readings)
+                    if start_time is None:
+                        start_time = current_time
+                    time_delta = current_time - start_time
+                    data_point_attr["timestamp"] = time_delta.total_seconds()
+            elif sensor == "BME680Sensor":
+                continue
+            else:
+                if sensor == "GroveGasSensor":
+                     entry = dict(list(readings.items())[2:4])
+                else:
+                    entry = readings.copy()
                 data_point_attr.update(entry)
-        data_point_attr["label"] = label_value  # Add the label
+        data_point_attr["label"] = label_value
         transformed_data.append(data_point_attr)
 
     return transformed_data
