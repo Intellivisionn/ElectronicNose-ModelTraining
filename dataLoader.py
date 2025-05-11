@@ -15,7 +15,6 @@ def loadData() -> list:
         Label.PINEAPPLE.value: 'Data\\kokot_pineapple_20250423_191451.json',
         Label.STRAWBERRY.value: 'Data\\kokot_strawberry _20250417_151214.json',
         Label.VANILLA.value: 'Data\\kokot_vanilla_20250414_160354.json'
-        
     }
     full_data = []
 

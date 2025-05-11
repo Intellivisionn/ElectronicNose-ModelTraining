@@ -19,11 +19,9 @@ def transform(file_path, label_value):
                         start_time = current_time
                     time_delta = current_time - start_time
                     data_point_attr["timestamp"] = time_delta.total_seconds()
-            elif sensor == "BME680Sensor":
-                continue
             else:
                 if sensor == "GroveGasSensor":
-                     entry = dict(list(readings.items())[2:4])
+                    entry = dict(list(readings.items())[2:4])
                 else:
                     entry = readings.copy()
                 data_point_attr.update(entry)

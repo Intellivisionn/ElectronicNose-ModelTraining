@@ -9,33 +9,40 @@ from matplotlib import pyplot as plt
 from enums import Label
 from transformer import transform
 import numpy as np
+import joblib
 
-data = dataLoader.loadData()
+method = int(input("Enter 1 for training or 2 for testing: "))
 
-X_train = [list(data_point.values())[:-1] for data_point in data]
-y_train = [data_point["label"] for data_point in data]
+if method == 1:
+    data = dataLoader.loadData()
 
-transformed_test = transform('Data\\kokot_lavender2_20250424_173844.json', Label.LAVENDER.value)
+    X_train = [list(data_point.values())[:-1] for data_point in data]
+    y_train = [data_point["label"] for data_point in data]
+
+    #Split into train and test sets (80% train, 20% test)
+    #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+
+    # df = pd.DataFrame(X_train, columns=[feature for feature in list(data[0].keys())[:-1]])
+    # corr_matrix = df.corr()
+
+    # plt.figure(figsize=(10, 8))
+    # sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', xticklabels=corr_matrix.columns, yticklabels=corr_matrix.columns)
+    # plt.title("Correlation Matrix")
+    # plt.show()
+
+    #Initialize model
+    gb_clf = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1, max_depth=3, random_state=42, verbose=1)
+
+    #Train the model
+    gb_clf.fit(X_train, y_train)
+
+else:
+
+    gb_clf = joblib.load('model.pkl')
+
+transformed_test = transform('Data\\kokot_grape_20250422_144509.json', Label.GRAPE.value)
 X_test = [list(data_point.values())[:-1] for data_point in transformed_test]
 y_test = [data_point["label"] for data_point in transformed_test]
-
-
-#Split into train and test sets (80% train, 20% test)
-# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
-
-# df = pd.DataFrame(X_train, columns=[feature for feature in list(data[0].keys())[:-1]])
-# corr_matrix = df.corr()
-
-# plt.figure(figsize=(10, 8))
-# sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', xticklabels=corr_matrix.columns, yticklabels=corr_matrix.columns)
-# plt.title("Correlation Matrix")
-# plt.show()
-
-#Initialize model
-gb_clf = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1, max_depth=3, random_state=42, verbose=1)
-
-#Train the model
-gb_clf.fit(X_train, y_train)
 
 probas = gb_clf.predict_proba(X_test)
 
@@ -89,3 +96,5 @@ print(f"Accuracy: {accuracy:.2f}\nAverage confidence: {average_confidence}")
 
 #Print classification report
 print(classification_report(y_test, y_pred))
+
+joblib.dump(gb_clf, 'model.pkl')
