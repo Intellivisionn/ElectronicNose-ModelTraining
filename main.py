@@ -2,33 +2,33 @@ import json
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import accuracy_score, classification_report
-import dataLoader
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 from enums import Label
-from transformer import transform
 import numpy as np
 import joblib
 
-method = int(input("Enter 1 for training or 2 for testing: "))
+import dataLoader
 
-if method == 1:
-    data = dataLoader.loadData()
+def create_time_window_features(data, window_size):
+    result = []
+    for i in range(window_size - 1, len(data)):
+        subres = []
+        for datapoint in data[i - window_size + 1:i + 1]:
+            subres.extend(datapoint)
+        result.append(subres)
 
-    X_train = [list(data_point.values())[:-1] for data_point in data]
-    y_train = [data_point["label"] for data_point in data]
+    return result
 
-    #Split into train and test sets (80% train, 20% test)
-    #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+def trainModel():
+    trainData = dataLoader.loadTrainData()
 
-    # df = pd.DataFrame(X_train, columns=[feature for feature in list(data[0].keys())[:-1]])
-    # corr_matrix = df.corr()
-
-    # plt.figure(figsize=(10, 8))
-    # sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', xticklabels=corr_matrix.columns, yticklabels=corr_matrix.columns)
-    # plt.title("Correlation Matrix")
-    # plt.show()
+    X_train = [data_point[:-1] for data_point in trainData]
+    y_train = [data_point[-1] for data_point in trainData[4:]]
+    # gradients = np.gradient(X_train, axis=0)
+    # X_train = np.concatenate((X_train, gradients), axis=1)
+    X_train = create_time_window_features(X_train, 5)
 
     #Initialize model
     gb_clf = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1, max_depth=3, random_state=42, verbose=1)
@@ -36,65 +36,72 @@ if method == 1:
     #Train the model
     gb_clf.fit(X_train, y_train)
 
-else:
+    joblib.dump(gb_clf, 'model.pkl')
 
+def testModel():
     gb_clf = joblib.load('model.pkl')
 
-transformed_test = transform('Data\\kokot_grape_20250422_144509.json', Label.GRAPE.value)
-X_test = [list(data_point.values())[:-1] for data_point in transformed_test]
-y_test = [data_point["label"] for data_point in transformed_test]
+    testData = dataLoader.loadTestData()
 
-probas = gb_clf.predict_proba(X_test)
+    X_test = [data_point[:-1] for data_point in testData]
+    y_test = [data_point[-1] for data_point in testData[4:]]
+    # gradients = np.gradient(X_train, axis=0)
+    # X_train = np.concatenate((X_train, gradients), axis=1)
+    X_test = create_time_window_features(X_test, 5)
 
-#Predict on test data
-y_pred = gb_clf.predict(X_test)
+    #Predict on test data
+    y_pred = gb_clf.predict(X_test)
 
-# Get confidence for each prediction
-confidences = [proba[pred] for proba, pred in zip(probas, y_pred)]
+    # print("Predictions:")
+    # for i, pred in enumerate(y_pred):
+    #     print(f"Sample {i}: {Label(pred).name}")
+    #     print(f"Confidence: {gb_clf.predict_proba([X_test[i]])[0][pred] * 100:.2f}%")
+    #     print(f"True label: {Label(y_test[i]).name}")
 
-confidences_by_element = {}
+    #Calculate accuracy
+    accuracy = accuracy_score(y_test, y_pred)
+    print(f"Accuracy: {accuracy:.2f}")
 
-for i in range(12):
-    confidences_by_element[Label(i).name] = []
+    #Print classification report
+    print(classification_report(y_test, y_pred, zero_division=0))
 
-for prob in probas:
-    for i, p in enumerate(prob):
-        confidences_by_element[Label(i).name].append(p * 100)  # scale to %
+    joblib.dump(gb_clf, 'model.pkl')
 
-# Plotting
-plt.figure(figsize=(10, 6))
-for label, values in confidences_by_element.items():
-    plt.plot(values, label=f'{label} confidence')
+def trainAndTestModel():
+    data = dataLoader.loadTrainData()
+    data.extend(dataLoader.loadTestData())
 
-plt.xlabel("Sample Index")
-plt.ylabel("Confidence (%)")
-plt.title("Per-Class Confidence Scores")
-plt.legend()
-plt.grid(True)
-plt.tight_layout()
-plt.show()
+    X = [data_point[:-1] for data_point in data]
+    X = create_time_window_features(X, 5)
+    y = [data_point[-1] for data_point in data[4:]]
 
-# Average confidence
-average_confidence = sum(confidences) / len(confidences)
+    #Split into train and test sets (80% train, 20% test)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
 
-unique_elements, counts = np.unique(y_pred, return_counts=True)
+    #Initialize model
+    gb_clf = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1, max_depth=3, random_state=42, verbose=1)
 
-# Print the number and its count
-for element, count in zip(unique_elements, counts):
-    print(f"{Label(element).name} appears {count} times.")
+    #Train the model
+    gb_clf.fit(X_train, y_train)
 
-# from sklearn.model_selection import cross_val_score
+    #Predict on test data
+    y_pred = gb_clf.predict(X_test)
 
-# scores = cross_val_score(gb_clf, X_train, y_train, cv=5)  # 5-fold cross-validation
-# print(f"Cross-validation scores: {scores}")
-# print(f"Mean score: {scores.mean()} +/- {scores.std()}")
+    #Calculate accuracy
+    accuracy = accuracy_score(y_test, y_pred)
+    print(f"Accuracy: {accuracy:.2f}")
 
+    #Print classification report
+    print(classification_report(y_test, y_pred, zero_division=0))
 
-#Calculate accuracy
-accuracy = accuracy_score(y_test, y_pred)
-print(f"Accuracy: {accuracy:.2f}\nAverage confidence: {average_confidence}")
+def main():
+    method = int(input("Enter 1 for training or 2 for testing or 3 for training + testing: "))
 
-#Print classification report
-print(classification_report(y_test, y_pred))
+    if method == 1:
+        trainModel()
+    elif method == 2:
+        testModel()
+    else:
+        trainAndTestModel()
 
-joblib.dump(gb_clf, 'model.pkl')
+main()
