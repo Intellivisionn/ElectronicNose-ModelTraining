@@ -19,6 +19,11 @@ def transform(file_path, label_value=None) -> list[list]:
                     start_time = current_time
                 time_delta = current_time - start_time
                 data_point_attr.append(time_delta.total_seconds())
+            elif sensor == "GroveGasSensor":
+                for i, reading in enumerate(readings.values()):
+                    if i in [1, 2, 4, 5]:
+                        continue
+                    data_point_attr.append(reading)
             else:
                 for reading in readings.values():
                     data_point_attr.append(reading)
