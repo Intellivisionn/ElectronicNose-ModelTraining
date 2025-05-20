@@ -1,0 +1,3215 @@
+[
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 26.39,
+            "Pressure": 1014.01,
+            "GasResistance": 460452
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 0
+        },
+        "GroveGasSensor": {
+            "NO2": 162,
+            "Ethanol": 85,
+            "VOC": 57,
+            "CO": 138,
+            "0x04": 580,
+            "0x08": 664
+        },
+        "timestamp": "2025-05-20T10:50:05.691613"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 26.4,
+            "Pressure": 1014.0,
+            "GasResistance": 463471
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 0
+        },
+        "GroveGasSensor": {
+            "NO2": 164,
+            "Ethanol": 86,
+            "VOC": 58,
+            "CO": 144,
+            "0x04": 584,
+            "0x08": 664
+        },
+        "timestamp": "2025-05-20T10:50:08.388837"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 26.5,
+            "Pressure": 1014.01,
+            "GasResistance": 460752
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 0
+        },
+        "GroveGasSensor": {
+            "NO2": 173,
+            "Ethanol": 88,
+            "VOC": 60,
+            "CO": 154,
+            "0x04": 579,
+            "0x08": 657
+        },
+        "timestamp": "2025-05-20T10:50:11.076336"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 26.69,
+            "Pressure": 1014.03,
+            "GasResistance": 451625
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 0
+        },
+        "GroveGasSensor": {
+            "NO2": 181,
+            "Ethanol": 89,
+            "VOC": 60,
+            "CO": 165,
+            "0x04": 584,
+            "0x08": 661
+        },
+        "timestamp": "2025-05-20T10:50:13.778590"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 26.9,
+            "Pressure": 1014.02,
+            "GasResistance": 451625
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 0
+        },
+        "GroveGasSensor": {
+            "NO2": 187,
+            "Ethanol": 91,
+            "VOC": 61,
+            "CO": 172,
+            "0x04": 596,
+            "0x08": 664
+        },
+        "timestamp": "2025-05-20T10:50:16.476827"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 27.03,
+            "Pressure": 1014.02,
+            "GasResistance": 447055
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 0
+        },
+        "GroveGasSensor": {
+            "NO2": 196,
+            "Ethanol": 93,
+            "VOC": 64,
+            "CO": 180,
+            "0x04": 597,
+            "0x08": 664
+        },
+        "timestamp": "2025-05-20T10:50:19.176877"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 27.16,
+            "Pressure": 1014.02,
+            "GasResistance": 441194
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 0
+        },
+        "GroveGasSensor": {
+            "NO2": 204,
+            "Ethanol": 96,
+            "VOC": 65,
+            "CO": 192,
+            "0x04": 600,
+            "0x08": 666
+        },
+        "timestamp": "2025-05-20T10:50:21.874407"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 27.28,
+            "Pressure": 1014.02,
+            "GasResistance": 438185
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 0
+        },
+        "GroveGasSensor": {
+            "NO2": 217,
+            "Ethanol": 98,
+            "VOC": 68,
+            "CO": 203,
+            "0x04": 604,
+            "0x08": 668
+        },
+        "timestamp": "2025-05-20T10:50:24.570811"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 27.38,
+            "Pressure": 1014.02,
+            "GasResistance": 431761
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 98
+        },
+        "GroveGasSensor": {
+            "NO2": 230,
+            "Ethanol": 101,
+            "VOC": 72,
+            "CO": 213,
+            "0x04": 607,
+            "0x08": 668
+        },
+        "timestamp": "2025-05-20T10:50:27.267853"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 27.48,
+            "Pressure": 1014.01,
+            "GasResistance": 428619
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 193
+        },
+        "GroveGasSensor": {
+            "NO2": 246,
+            "Ethanol": 104,
+            "VOC": 75,
+            "CO": 225,
+            "0x04": 610,
+            "0x08": 668
+        },
+        "timestamp": "2025-05-20T10:50:29.964880"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 27.58,
+            "Pressure": 1014.01,
+            "GasResistance": 421463
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 347
+        },
+        "GroveGasSensor": {
+            "NO2": 263,
+            "Ethanol": 109,
+            "VOC": 80,
+            "CO": 238,
+            "0x04": 614,
+            "0x08": 669
+        },
+        "timestamp": "2025-05-20T10:50:32.662201"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 27.67,
+            "Pressure": 1014.01,
+            "GasResistance": 417974
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 566
+        },
+        "GroveGasSensor": {
+            "NO2": 281,
+            "Ethanol": 114,
+            "VOC": 84,
+            "CO": 251,
+            "0x04": 616,
+            "0x08": 671
+        },
+        "timestamp": "2025-05-20T10:50:35.361492"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 27.73,
+            "Pressure": 1014.02,
+            "GasResistance": 408315
+        },
+        "SGP30Sensor": {
+            "CO2": 400,
+            "TVOC": 979
+        },
+        "GroveGasSensor": {
+            "NO2": 301,
+            "Ethanol": 120,
+            "VOC": 91,
+            "CO": 263,
+            "0x04": 617,
+            "0x08": 673
+        },
+        "timestamp": "2025-05-20T10:50:38.058739"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 27.8,
+            "Pressure": 1014.01,
+            "GasResistance": 403651
+        },
+        "SGP30Sensor": {
+            "CO2": 515,
+            "TVOC": 1386
+        },
+        "GroveGasSensor": {
+            "NO2": 326,
+            "Ethanol": 127,
+            "VOC": 99,
+            "CO": 277,
+            "0x04": 621,
+            "0x08": 674
+        },
+        "timestamp": "2025-05-20T10:50:40.756126"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 27.86,
+            "Pressure": 1014.02,
+            "GasResistance": 395077
+        },
+        "SGP30Sensor": {
+            "CO2": 633,
+            "TVOC": 2157
+        },
+        "GroveGasSensor": {
+            "NO2": 351,
+            "Ethanol": 135,
+            "VOC": 108,
+            "CO": 290,
+            "0x04": 625,
+            "0x08": 673
+        },
+        "timestamp": "2025-05-20T10:50:43.451868"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 27.9,
+            "Pressure": 1014.02,
+            "GasResistance": 386015
+        },
+        "SGP30Sensor": {
+            "CO2": 734,
+            "TVOC": 2805
+        },
+        "GroveGasSensor": {
+            "NO2": 378,
+            "Ethanol": 144,
+            "VOC": 119,
+            "CO": 302,
+            "0x04": 630,
+            "0x08": 675
+        },
+        "timestamp": "2025-05-20T10:50:46.149825"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 27.96,
+            "Pressure": 1014.02,
+            "GasResistance": 363842
+        },
+        "SGP30Sensor": {
+            "CO2": 829,
+            "TVOC": 3780
+        },
+        "GroveGasSensor": {
+            "NO2": 404,
+            "Ethanol": 154,
+            "VOC": 132,
+            "CO": 314,
+            "0x04": 634,
+            "0x08": 676
+        },
+        "timestamp": "2025-05-20T10:50:48.846927"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.01,
+            "Pressure": 1014.02,
+            "GasResistance": 352412
+        },
+        "SGP30Sensor": {
+            "CO2": 937,
+            "TVOC": 4843
+        },
+        "GroveGasSensor": {
+            "NO2": 430,
+            "Ethanol": 165,
+            "VOC": 145,
+            "CO": 324,
+            "0x04": 637,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:50:51.544306"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.04,
+            "Pressure": 1014.02,
+            "GasResistance": 346099
+        },
+        "SGP30Sensor": {
+            "CO2": 1087,
+            "TVOC": 5721
+        },
+        "GroveGasSensor": {
+            "NO2": 454,
+            "Ethanol": 176,
+            "VOC": 160,
+            "CO": 334,
+            "0x04": 641,
+            "0x08": 677
+        },
+        "timestamp": "2025-05-20T10:50:54.240201"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.07,
+            "Pressure": 1014.0,
+            "GasResistance": 338684
+        },
+        "SGP30Sensor": {
+            "CO2": 1226,
+            "TVOC": 6478
+        },
+        "GroveGasSensor": {
+            "NO2": 477,
+            "Ethanol": 188,
+            "VOC": 175,
+            "CO": 343,
+            "0x04": 641,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:50:56.939255"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.11,
+            "Pressure": 1014.0,
+            "GasResistance": 328449
+        },
+        "SGP30Sensor": {
+            "CO2": 1352,
+            "TVOC": 7065
+        },
+        "GroveGasSensor": {
+            "NO2": 498,
+            "Ethanol": 201,
+            "VOC": 193,
+            "CO": 352,
+            "0x04": 645,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:50:59.637518"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.15,
+            "Pressure": 1014.0,
+            "GasResistance": 321169
+        },
+        "SGP30Sensor": {
+            "CO2": 1441,
+            "TVOC": 8252
+        },
+        "GroveGasSensor": {
+            "NO2": 517,
+            "Ethanol": 215,
+            "VOC": 209,
+            "CO": 358,
+            "0x04": 648,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:51:02.334843"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.18,
+            "Pressure": 1014.0,
+            "GasResistance": 315345
+        },
+        "SGP30Sensor": {
+            "CO2": 1524,
+            "TVOC": 9085
+        },
+        "GroveGasSensor": {
+            "NO2": 534,
+            "Ethanol": 228,
+            "VOC": 227,
+            "CO": 366,
+            "0x04": 638,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:51:05.022839"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.2,
+            "Pressure": 1014.0,
+            "GasResistance": 305914
+        },
+        "SGP30Sensor": {
+            "CO2": 1619,
+            "TVOC": 9929
+        },
+        "GroveGasSensor": {
+            "NO2": 551,
+            "Ethanol": 242,
+            "VOC": 245,
+            "CO": 372,
+            "0x04": 640,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:51:07.719824"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.23,
+            "Pressure": 1014.02,
+            "GasResistance": 300106
+        },
+        "SGP30Sensor": {
+            "CO2": 1690,
+            "TVOC": 10661
+        },
+        "GroveGasSensor": {
+            "NO2": 565,
+            "Ethanol": 256,
+            "VOC": 264,
+            "CO": 378,
+            "0x04": 649,
+            "0x08": 684
+        },
+        "timestamp": "2025-05-20T10:51:10.413039"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.24,
+            "Pressure": 1014.02,
+            "GasResistance": 293026
+        },
+        "SGP30Sensor": {
+            "CO2": 1764,
+            "TVOC": 11280
+        },
+        "GroveGasSensor": {
+            "NO2": 578,
+            "Ethanol": 270,
+            "VOC": 282,
+            "CO": 383,
+            "0x04": 653,
+            "0x08": 685
+        },
+        "timestamp": "2025-05-20T10:51:13.110771"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.29,
+            "Pressure": 1014.01,
+            "GasResistance": 286272
+        },
+        "SGP30Sensor": {
+            "CO2": 1828,
+            "TVOC": 11820
+        },
+        "GroveGasSensor": {
+            "NO2": 590,
+            "Ethanol": 284,
+            "VOC": 302,
+            "CO": 388,
+            "0x04": 653,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:51:15.807075"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.31,
+            "Pressure": 1014.01,
+            "GasResistance": 280274
+        },
+        "SGP30Sensor": {
+            "CO2": 1876,
+            "TVOC": 12057
+        },
+        "GroveGasSensor": {
+            "NO2": 601,
+            "Ethanol": 298,
+            "VOC": 319,
+            "CO": 393,
+            "0x04": 655,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:51:18.504291"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.33,
+            "Pressure": 1014.0,
+            "GasResistance": 271521
+        },
+        "SGP30Sensor": {
+            "CO2": 1945,
+            "TVOC": 12597
+        },
+        "GroveGasSensor": {
+            "NO2": 611,
+            "Ethanol": 313,
+            "VOC": 338,
+            "CO": 396,
+            "0x04": 657,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:51:21.201820"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.33,
+            "Pressure": 1013.99,
+            "GasResistance": 266936
+        },
+        "SGP30Sensor": {
+            "CO2": 1976,
+            "TVOC": 12833
+        },
+        "GroveGasSensor": {
+            "NO2": 620,
+            "Ethanol": 328,
+            "VOC": 356,
+            "CO": 402,
+            "0x04": 657,
+            "0x08": 681
+        },
+        "timestamp": "2025-05-20T10:51:23.897444"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.35,
+            "Pressure": 1013.99,
+            "GasResistance": 260147
+        },
+        "SGP30Sensor": {
+            "CO2": 2047,
+            "TVOC": 13295
+        },
+        "GroveGasSensor": {
+            "NO2": 628,
+            "Ethanol": 342,
+            "VOC": 373,
+            "CO": 405,
+            "0x04": 652,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:51:26.594383"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.37,
+            "Pressure": 1013.98,
+            "GasResistance": 254997
+        },
+        "SGP30Sensor": {
+            "CO2": 2072,
+            "TVOC": 13599
+        },
+        "GroveGasSensor": {
+            "NO2": 635,
+            "Ethanol": 356,
+            "VOC": 391,
+            "CO": 408,
+            "0x04": 651,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:51:29.291708"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.39,
+            "Pressure": 1013.98,
+            "GasResistance": 249688
+        },
+        "SGP30Sensor": {
+            "CO2": 2138,
+            "TVOC": 13858
+        },
+        "GroveGasSensor": {
+            "NO2": 642,
+            "Ethanol": 371,
+            "VOC": 407,
+            "CO": 413,
+            "0x04": 652,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:51:31.989345"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.4,
+            "Pressure": 1013.98,
+            "GasResistance": 245286
+        },
+        "SGP30Sensor": {
+            "CO2": 2239,
+            "TVOC": 13891
+        },
+        "GroveGasSensor": {
+            "NO2": 649,
+            "Ethanol": 384,
+            "VOC": 424,
+            "CO": 415,
+            "0x04": 650,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:51:34.686358"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.4,
+            "Pressure": 1013.99,
+            "GasResistance": 240369
+        },
+        "SGP30Sensor": {
+            "CO2": 2339,
+            "TVOC": 14691
+        },
+        "GroveGasSensor": {
+            "NO2": 656,
+            "Ethanol": 396,
+            "VOC": 439,
+            "CO": 418,
+            "0x04": 651,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:51:37.384416"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.48,
+            "Humidity": 28.43,
+            "Pressure": 1013.99,
+            "GasResistance": 236286
+        },
+        "SGP30Sensor": {
+            "CO2": 2435,
+            "TVOC": 14657
+        },
+        "GroveGasSensor": {
+            "NO2": 661,
+            "Ethanol": 411,
+            "VOC": 455,
+            "CO": 421,
+            "0x04": 651,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:51:40.082382"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.45,
+            "Pressure": 1014.01,
+            "GasResistance": 232340
+        },
+        "SGP30Sensor": {
+            "CO2": 2425,
+            "TVOC": 14826
+        },
+        "GroveGasSensor": {
+            "NO2": 667,
+            "Ethanol": 422,
+            "VOC": 469,
+            "CO": 424,
+            "0x04": 651,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:51:42.779839"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.45,
+            "Pressure": 1014.0,
+            "GasResistance": 226735
+        },
+        "SGP30Sensor": {
+            "CO2": 2492,
+            "TVOC": 15298
+        },
+        "GroveGasSensor": {
+            "NO2": 671,
+            "Ethanol": 435,
+            "VOC": 483,
+            "CO": 427,
+            "0x04": 657,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:51:45.474659"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.47,
+            "Pressure": 1014.0,
+            "GasResistance": 222102
+        },
+        "SGP30Sensor": {
+            "CO2": 2550,
+            "TVOC": 15163
+        },
+        "GroveGasSensor": {
+            "NO2": 676,
+            "Ethanol": 447,
+            "VOC": 496,
+            "CO": 429,
+            "0x04": 659,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:51:48.173354"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.48,
+            "Pressure": 1014.0,
+            "GasResistance": 219578
+        },
+        "SGP30Sensor": {
+            "CO2": 2582,
+            "TVOC": 15400
+        },
+        "GroveGasSensor": {
+            "NO2": 680,
+            "Ethanol": 459,
+            "VOC": 509,
+            "CO": 432,
+            "0x04": 663,
+            "0x08": 688
+        },
+        "timestamp": "2025-05-20T10:51:50.870589"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.49,
+            "Pressure": 1014.0,
+            "GasResistance": 215496
+        },
+        "SGP30Sensor": {
+            "CO2": 2653,
+            "TVOC": 15546
+        },
+        "GroveGasSensor": {
+            "NO2": 684,
+            "Ethanol": 470,
+            "VOC": 521,
+            "CO": 434,
+            "0x04": 663,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:51:53.567543"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.51,
+            "Pressure": 1013.99,
+            "GasResistance": 211950
+        },
+        "SGP30Sensor": {
+            "CO2": 2693,
+            "TVOC": 15670
+        },
+        "GroveGasSensor": {
+            "NO2": 688,
+            "Ethanol": 481,
+            "VOC": 533,
+            "CO": 437,
+            "0x04": 667,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:51:56.265151"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.52,
+            "Pressure": 1014.0,
+            "GasResistance": 208144
+        },
+        "SGP30Sensor": {
+            "CO2": 2757,
+            "TVOC": 15873
+        },
+        "GroveGasSensor": {
+            "NO2": 691,
+            "Ethanol": 491,
+            "VOC": 543,
+            "CO": 439,
+            "0x04": 666,
+            "0x08": 685
+        },
+        "timestamp": "2025-05-20T10:51:58.962241"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.52,
+            "Pressure": 1013.99,
+            "GasResistance": 203754
+        },
+        "SGP30Sensor": {
+            "CO2": 2786,
+            "TVOC": 15985
+        },
+        "GroveGasSensor": {
+            "NO2": 695,
+            "Ethanol": 501,
+            "VOC": 555,
+            "CO": 441,
+            "0x04": 667,
+            "0x08": 685
+        },
+        "timestamp": "2025-05-20T10:52:01.659122"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.54,
+            "Pressure": 1014.0,
+            "GasResistance": 201979
+        },
+        "SGP30Sensor": {
+            "CO2": 2806,
+            "TVOC": 15974
+        },
+        "GroveGasSensor": {
+            "NO2": 698,
+            "Ethanol": 511,
+            "VOC": 564,
+            "CO": 443,
+            "0x04": 668,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:52:04.355685"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.55,
+            "Pressure": 1014.0,
+            "GasResistance": 197506
+        },
+        "SGP30Sensor": {
+            "CO2": 2823,
+            "TVOC": 16176
+        },
+        "GroveGasSensor": {
+            "NO2": 701,
+            "Ethanol": 522,
+            "VOC": 575,
+            "CO": 445,
+            "0x04": 670,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:52:07.052731"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.49,
+            "Humidity": 28.56,
+            "Pressure": 1014.0,
+            "GasResistance": 195727
+        },
+        "SGP30Sensor": {
+            "CO2": 2867,
+            "TVOC": 16289
+        },
+        "GroveGasSensor": {
+            "NO2": 705,
+            "Ethanol": 530,
+            "VOC": 584,
+            "CO": 447,
+            "0x04": 671,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:52:09.749649"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 28.56,
+            "Pressure": 1014.01,
+            "GasResistance": 193119
+        },
+        "SGP30Sensor": {
+            "CO2": 2911,
+            "TVOC": 17544
+        },
+        "GroveGasSensor": {
+            "NO2": 707,
+            "Ethanol": 539,
+            "VOC": 593,
+            "CO": 448,
+            "0x04": 672,
+            "0x08": 685
+        },
+        "timestamp": "2025-05-20T10:52:12.447151"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 28.57,
+            "Pressure": 1014.01,
+            "GasResistance": 188923
+        },
+        "SGP30Sensor": {
+            "CO2": 2914,
+            "TVOC": 17195
+        },
+        "GroveGasSensor": {
+            "NO2": 709,
+            "Ethanol": 548,
+            "VOC": 600,
+            "CO": 450,
+            "0x04": 666,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:52:15.142912"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 28.57,
+            "Pressure": 1014.03,
+            "GasResistance": 181039
+        },
+        "SGP30Sensor": {
+            "CO2": 2990,
+            "TVOC": 17927
+        },
+        "GroveGasSensor": {
+            "NO2": 712,
+            "Ethanol": 555,
+            "VOC": 609,
+            "CO": 452,
+            "0x04": 666,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:52:17.840909"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 28.58,
+            "Pressure": 1014.04,
+            "GasResistance": 178842
+        },
+        "SGP30Sensor": {
+            "CO2": 3049,
+            "TVOC": 18276
+        },
+        "GroveGasSensor": {
+            "NO2": 715,
+            "Ethanol": 563,
+            "VOC": 616,
+            "CO": 454,
+            "0x04": 660,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:52:20.531944"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 28.6,
+            "Pressure": 1014.03,
+            "GasResistance": 177407
+        },
+        "SGP30Sensor": {
+            "CO2": 3073,
+            "TVOC": 19008
+        },
+        "GroveGasSensor": {
+            "NO2": 718,
+            "Ethanol": 571,
+            "VOC": 624,
+            "CO": 455,
+            "0x04": 663,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:52:23.229255"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 28.6,
+            "Pressure": 1014.03,
+            "GasResistance": 175124
+        },
+        "SGP30Sensor": {
+            "CO2": 3100,
+            "TVOC": 18694
+        },
+        "GroveGasSensor": {
+            "NO2": 719,
+            "Ethanol": 579,
+            "VOC": 631,
+            "CO": 457,
+            "0x04": 665,
+            "0x08": 688
+        },
+        "timestamp": "2025-05-20T10:52:25.926987"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.5,
+            "Humidity": 28.6,
+            "Pressure": 1014.02,
+            "GasResistance": 172225
+        },
+        "SGP30Sensor": {
+            "CO2": 3147,
+            "TVOC": 19810
+        },
+        "GroveGasSensor": {
+            "NO2": 722,
+            "Ethanol": 586,
+            "VOC": 637,
+            "CO": 459,
+            "0x04": 669,
+            "0x08": 691
+        },
+        "timestamp": "2025-05-20T10:52:28.624376"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.51,
+            "Humidity": 28.62,
+            "Pressure": 1014.03,
+            "GasResistance": 170072
+        },
+        "SGP30Sensor": {
+            "CO2": 3183,
+            "TVOC": 19949
+        },
+        "GroveGasSensor": {
+            "NO2": 723,
+            "Ethanol": 593,
+            "VOC": 643,
+            "CO": 460,
+            "0x04": 672,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:52:31.321857"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.51,
+            "Humidity": 28.62,
+            "Pressure": 1014.04,
+            "GasResistance": 168613
+        },
+        "SGP30Sensor": {
+            "CO2": 3206,
+            "TVOC": 19914
+        },
+        "GroveGasSensor": {
+            "NO2": 725,
+            "Ethanol": 599,
+            "VOC": 648,
+            "CO": 462,
+            "0x04": 675,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:52:34.019410"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.51,
+            "Humidity": 28.61,
+            "Pressure": 1014.04,
+            "GasResistance": 165769
+        },
+        "SGP30Sensor": {
+            "CO2": 3228,
+            "TVOC": 20298
+        },
+        "GroveGasSensor": {
+            "NO2": 728,
+            "Ethanol": 606,
+            "VOC": 654,
+            "CO": 464,
+            "0x04": 676,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:52:36.716363"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.51,
+            "Humidity": 28.62,
+            "Pressure": 1014.06,
+            "GasResistance": 164688
+        },
+        "SGP30Sensor": {
+            "CO2": 3245,
+            "TVOC": 21274
+        },
+        "GroveGasSensor": {
+            "NO2": 729,
+            "Ethanol": 612,
+            "VOC": 659,
+            "CO": 465,
+            "0x04": 667,
+            "0x08": 684
+        },
+        "timestamp": "2025-05-20T10:52:39.413815"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.51,
+            "Humidity": 28.62,
+            "Pressure": 1014.06,
+            "GasResistance": 162718
+        },
+        "SGP30Sensor": {
+            "CO2": 3250,
+            "TVOC": 20402
+        },
+        "GroveGasSensor": {
+            "NO2": 731,
+            "Ethanol": 618,
+            "VOC": 664,
+            "CO": 467,
+            "0x04": 664,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:52:42.111097"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.51,
+            "Humidity": 28.64,
+            "Pressure": 1014.05,
+            "GasResistance": 161088
+        },
+        "SGP30Sensor": {
+            "CO2": 3274,
+            "TVOC": 20716
+        },
+        "GroveGasSensor": {
+            "NO2": 733,
+            "Ethanol": 623,
+            "VOC": 669,
+            "CO": 468,
+            "0x04": 664,
+            "0x08": 688
+        },
+        "timestamp": "2025-05-20T10:52:44.811687"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.52,
+            "Humidity": 28.66,
+            "Pressure": 1014.05,
+            "GasResistance": 159634
+        },
+        "SGP30Sensor": {
+            "CO2": 3311,
+            "TVOC": 21483
+        },
+        "GroveGasSensor": {
+            "NO2": 735,
+            "Ethanol": 629,
+            "VOC": 673,
+            "CO": 469,
+            "0x04": 665,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:52:47.508519"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.52,
+            "Humidity": 28.65,
+            "Pressure": 1014.04,
+            "GasResistance": 158065
+        },
+        "SGP30Sensor": {
+            "CO2": 3338,
+            "TVOC": 21099
+        },
+        "GroveGasSensor": {
+            "NO2": 736,
+            "Ethanol": 635,
+            "VOC": 678,
+            "CO": 472,
+            "0x04": 664,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:52:50.206054"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.52,
+            "Humidity": 28.66,
+            "Pressure": 1014.03,
+            "GasResistance": 156665
+        },
+        "SGP30Sensor": {
+            "CO2": 3372,
+            "TVOC": 22215
+        },
+        "GroveGasSensor": {
+            "NO2": 738,
+            "Ethanol": 640,
+            "VOC": 683,
+            "CO": 471,
+            "0x04": 664,
+            "0x08": 688
+        },
+        "timestamp": "2025-05-20T10:52:52.902450"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.52,
+            "Humidity": 28.66,
+            "Pressure": 1014.03,
+            "GasResistance": 154611
+        },
+        "SGP30Sensor": {
+            "CO2": 3412,
+            "TVOC": 22354
+        },
+        "GroveGasSensor": {
+            "NO2": 740,
+            "Ethanol": 645,
+            "VOC": 686,
+            "CO": 473,
+            "0x04": 673,
+            "0x08": 685
+        },
+        "timestamp": "2025-05-20T10:52:55.589734"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.52,
+            "Humidity": 28.66,
+            "Pressure": 1014.03,
+            "GasResistance": 153139
+        },
+        "SGP30Sensor": {
+            "CO2": 3446,
+            "TVOC": 22877
+        },
+        "GroveGasSensor": {
+            "NO2": 742,
+            "Ethanol": 650,
+            "VOC": 689,
+            "CO": 475,
+            "0x04": 670,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:52:58.287792"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.52,
+            "Humidity": 28.67,
+            "Pressure": 1014.04,
+            "GasResistance": 152085
+        },
+        "SGP30Sensor": {
+            "CO2": 3419,
+            "TVOC": 22842
+        },
+        "GroveGasSensor": {
+            "NO2": 743,
+            "Ethanol": 654,
+            "VOC": 693,
+            "CO": 477,
+            "0x04": 670,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:53:00.984754"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.53,
+            "Humidity": 28.66,
+            "Pressure": 1014.05,
+            "GasResistance": 151046
+        },
+        "SGP30Sensor": {
+            "CO2": 3434,
+            "TVOC": 22459
+        },
+        "GroveGasSensor": {
+            "NO2": 744,
+            "Ethanol": 659,
+            "VOC": 696,
+            "CO": 478,
+            "0x04": 666,
+            "0x08": 688
+        },
+        "timestamp": "2025-05-20T10:53:03.680391"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.53,
+            "Humidity": 28.67,
+            "Pressure": 1014.05,
+            "GasResistance": 149262
+        },
+        "SGP30Sensor": {
+            "CO2": 3458,
+            "TVOC": 23156
+        },
+        "GroveGasSensor": {
+            "NO2": 745,
+            "Ethanol": 663,
+            "VOC": 700,
+            "CO": 479,
+            "0x04": 667,
+            "0x08": 689
+        },
+        "timestamp": "2025-05-20T10:53:06.377526"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.53,
+            "Humidity": 28.68,
+            "Pressure": 1014.04,
+            "GasResistance": 147765
+        },
+        "SGP30Sensor": {
+            "CO2": 3498,
+            "TVOC": 22738
+        },
+        "GroveGasSensor": {
+            "NO2": 746,
+            "Ethanol": 667,
+            "VOC": 703,
+            "CO": 481,
+            "0x04": 667,
+            "0x08": 688
+        },
+        "timestamp": "2025-05-20T10:53:09.076218"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.53,
+            "Humidity": 28.67,
+            "Pressure": 1014.03,
+            "GasResistance": 146299
+        },
+        "SGP30Sensor": {
+            "CO2": 3488,
+            "TVOC": 23505
+        },
+        "GroveGasSensor": {
+            "NO2": 748,
+            "Ethanol": 670,
+            "VOC": 706,
+            "CO": 481,
+            "0x04": 673,
+            "0x08": 691
+        },
+        "timestamp": "2025-05-20T10:53:11.773440"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.53,
+            "Humidity": 28.69,
+            "Pressure": 1014.02,
+            "GasResistance": 145816
+        },
+        "SGP30Sensor": {
+            "CO2": 3581,
+            "TVOC": 23226
+        },
+        "GroveGasSensor": {
+            "NO2": 750,
+            "Ethanol": 675,
+            "VOC": 708,
+            "CO": 483,
+            "0x04": 676,
+            "0x08": 692
+        },
+        "timestamp": "2025-05-20T10:53:14.470984"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.53,
+            "Humidity": 28.7,
+            "Pressure": 1014.02,
+            "GasResistance": 143567
+        },
+        "SGP30Sensor": {
+            "CO2": 3586,
+            "TVOC": 23261
+        },
+        "GroveGasSensor": {
+            "NO2": 751,
+            "Ethanol": 679,
+            "VOC": 711,
+            "CO": 485,
+            "0x04": 683,
+            "0x08": 689
+        },
+        "timestamp": "2025-05-20T10:53:17.163133"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.54,
+            "Humidity": 28.7,
+            "Pressure": 1014.02,
+            "GasResistance": 142068
+        },
+        "SGP30Sensor": {
+            "CO2": 3620,
+            "TVOC": 24690
+        },
+        "GroveGasSensor": {
+            "NO2": 752,
+            "Ethanol": 683,
+            "VOC": 714,
+            "CO": 485,
+            "0x04": 680,
+            "0x08": 689
+        },
+        "timestamp": "2025-05-20T10:53:19.860435"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.54,
+            "Humidity": 28.7,
+            "Pressure": 1014.02,
+            "GasResistance": 142297
+        },
+        "SGP30Sensor": {
+            "CO2": 3596,
+            "TVOC": 24306
+        },
+        "GroveGasSensor": {
+            "NO2": 754,
+            "Ethanol": 685,
+            "VOC": 717,
+            "CO": 487,
+            "0x04": 674,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:53:22.557886"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.54,
+            "Humidity": 28.7,
+            "Pressure": 1014.01,
+            "GasResistance": 140155
+        },
+        "SGP30Sensor": {
+            "CO2": 3613,
+            "TVOC": 24167
+        },
+        "GroveGasSensor": {
+            "NO2": 754,
+            "Ethanol": 690,
+            "VOC": 719,
+            "CO": 488,
+            "0x04": 672,
+            "0x08": 688
+        },
+        "timestamp": "2025-05-20T10:53:25.254872"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.54,
+            "Humidity": 28.7,
+            "Pressure": 1014.0,
+            "GasResistance": 139601
+        },
+        "SGP30Sensor": {
+            "CO2": 3633,
+            "TVOC": 24411
+        },
+        "GroveGasSensor": {
+            "NO2": 755,
+            "Ethanol": 693,
+            "VOC": 721,
+            "CO": 489,
+            "0x04": 671,
+            "0x08": 690
+        },
+        "timestamp": "2025-05-20T10:53:27.952032"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.54,
+            "Humidity": 28.71,
+            "Pressure": 1014.0,
+            "GasResistance": 137432
+        },
+        "SGP30Sensor": {
+            "CO2": 3637,
+            "TVOC": 25073
+        },
+        "GroveGasSensor": {
+            "NO2": 757,
+            "Ethanol": 695,
+            "VOC": 723,
+            "CO": 490,
+            "0x04": 669,
+            "0x08": 690
+        },
+        "timestamp": "2025-05-20T10:53:30.648586"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.55,
+            "Humidity": 28.72,
+            "Pressure": 1014.0,
+            "GasResistance": 138076
+        },
+        "SGP30Sensor": {
+            "CO2": 3672,
+            "TVOC": 24167
+        },
+        "GroveGasSensor": {
+            "NO2": 758,
+            "Ethanol": 699,
+            "VOC": 725,
+            "CO": 491,
+            "0x04": 675,
+            "0x08": 691
+        },
+        "timestamp": "2025-05-20T10:53:33.345866"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.55,
+            "Humidity": 28.71,
+            "Pressure": 1014.03,
+            "GasResistance": 136162
+        },
+        "SGP30Sensor": {
+            "CO2": 3694,
+            "TVOC": 25247
+        },
+        "GroveGasSensor": {
+            "NO2": 759,
+            "Ethanol": 701,
+            "VOC": 728,
+            "CO": 492,
+            "0x04": 682,
+            "0x08": 692
+        },
+        "timestamp": "2025-05-20T10:53:36.042313"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.55,
+            "Humidity": 28.72,
+            "Pressure": 1014.03,
+            "GasResistance": 134916
+        },
+        "SGP30Sensor": {
+            "CO2": 3743,
+            "TVOC": 25143
+        },
+        "GroveGasSensor": {
+            "NO2": 760,
+            "Ethanol": 705,
+            "VOC": 729,
+            "CO": 494,
+            "0x04": 683,
+            "0x08": 690
+        },
+        "timestamp": "2025-05-20T10:53:38.739113"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.55,
+            "Humidity": 28.71,
+            "Pressure": 1014.04,
+            "GasResistance": 135226
+        },
+        "SGP30Sensor": {
+            "CO2": 3740,
+            "TVOC": 25631
+        },
+        "GroveGasSensor": {
+            "NO2": 761,
+            "Ethanol": 707,
+            "VOC": 731,
+            "CO": 495,
+            "0x04": 685,
+            "0x08": 692
+        },
+        "timestamp": "2025-05-20T10:53:41.436523"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.55,
+            "Humidity": 28.73,
+            "Pressure": 1014.03,
+            "GasResistance": 132689
+        },
+        "SGP30Sensor": {
+            "CO2": 3763,
+            "TVOC": 25561
+        },
+        "GroveGasSensor": {
+            "NO2": 762,
+            "Ethanol": 710,
+            "VOC": 734,
+            "CO": 496,
+            "0x04": 684,
+            "0x08": 691
+        },
+        "timestamp": "2025-05-20T10:53:44.133178"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.55,
+            "Humidity": 28.73,
+            "Pressure": 1014.02,
+            "GasResistance": 132689
+        },
+        "SGP30Sensor": {
+            "CO2": 3836,
+            "TVOC": 25979
+        },
+        "GroveGasSensor": {
+            "NO2": 763,
+            "Ethanol": 712,
+            "VOC": 735,
+            "CO": 496,
+            "0x04": 678,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:53:46.830560"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.56,
+            "Humidity": 28.73,
+            "Pressure": 1014.01,
+            "GasResistance": 131701
+        },
+        "SGP30Sensor": {
+            "CO2": 3804,
+            "TVOC": 26258
+        },
+        "GroveGasSensor": {
+            "NO2": 764,
+            "Ethanol": 715,
+            "VOC": 737,
+            "CO": 498,
+            "0x04": 677,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:53:49.529350"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.56,
+            "Humidity": 28.73,
+            "Pressure": 1014.0,
+            "GasResistance": 130922
+        },
+        "SGP30Sensor": {
+            "CO2": 3836,
+            "TVOC": 26851
+        },
+        "GroveGasSensor": {
+            "NO2": 766,
+            "Ethanol": 717,
+            "VOC": 739,
+            "CO": 498,
+            "0x04": 676,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:53:52.226585"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.56,
+            "Humidity": 28.75,
+            "Pressure": 1013.99,
+            "GasResistance": 130055
+        },
+        "SGP30Sensor": {
+            "CO2": 3866,
+            "TVOC": 26746
+        },
+        "GroveGasSensor": {
+            "NO2": 766,
+            "Ethanol": 719,
+            "VOC": 740,
+            "CO": 499,
+            "0x04": 673,
+            "0x08": 688
+        },
+        "timestamp": "2025-05-20T10:53:54.924190"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.56,
+            "Humidity": 28.74,
+            "Pressure": 1013.98,
+            "GasResistance": 129106
+        },
+        "SGP30Sensor": {
+            "CO2": 3863,
+            "TVOC": 26711
+        },
+        "GroveGasSensor": {
+            "NO2": 767,
+            "Ethanol": 722,
+            "VOC": 742,
+            "CO": 500,
+            "0x04": 674,
+            "0x08": 689
+        },
+        "timestamp": "2025-05-20T10:53:57.621324"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.56,
+            "Humidity": 28.75,
+            "Pressure": 1013.97,
+            "GasResistance": 127432
+        },
+        "SGP30Sensor": {
+            "CO2": 3942,
+            "TVOC": 27862
+        },
+        "GroveGasSensor": {
+            "NO2": 769,
+            "Ethanol": 725,
+            "VOC": 743,
+            "CO": 502,
+            "0x04": 674,
+            "0x08": 689
+        },
+        "timestamp": "2025-05-20T10:54:00.320335"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.56,
+            "Humidity": 28.75,
+            "Pressure": 1013.96,
+            "GasResistance": 127340
+        },
+        "SGP30Sensor": {
+            "CO2": 3939,
+            "TVOC": 26607
+        },
+        "GroveGasSensor": {
+            "NO2": 768,
+            "Ethanol": 727,
+            "VOC": 745,
+            "CO": 503,
+            "0x04": 673,
+            "0x08": 690
+        },
+        "timestamp": "2025-05-20T10:54:03.017810"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.56,
+            "Humidity": 28.74,
+            "Pressure": 1013.96,
+            "GasResistance": 126249
+        },
+        "SGP30Sensor": {
+            "CO2": 3944,
+            "TVOC": 27130
+        },
+        "GroveGasSensor": {
+            "NO2": 770,
+            "Ethanol": 729,
+            "VOC": 746,
+            "CO": 503,
+            "0x04": 686,
+            "0x08": 692
+        },
+        "timestamp": "2025-05-20T10:54:05.707131"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.57,
+            "Humidity": 28.75,
+            "Pressure": 1013.97,
+            "GasResistance": 125088
+        },
+        "SGP30Sensor": {
+            "CO2": 3969,
+            "TVOC": 27199
+        },
+        "GroveGasSensor": {
+            "NO2": 771,
+            "Ethanol": 731,
+            "VOC": 747,
+            "CO": 506,
+            "0x04": 687,
+            "0x08": 692
+        },
+        "timestamp": "2025-05-20T10:54:08.404268"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.57,
+            "Humidity": 28.76,
+            "Pressure": 1013.98,
+            "GasResistance": 125354
+        },
+        "SGP30Sensor": {
+            "CO2": 3986,
+            "TVOC": 27966
+        },
+        "GroveGasSensor": {
+            "NO2": 772,
+            "Ethanol": 732,
+            "VOC": 749,
+            "CO": 506,
+            "0x04": 687,
+            "0x08": 691
+        },
+        "timestamp": "2025-05-20T10:54:11.101544"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.57,
+            "Humidity": 28.75,
+            "Pressure": 1013.99,
+            "GasResistance": 123862
+        },
+        "SGP30Sensor": {
+            "CO2": 4010,
+            "TVOC": 28210
+        },
+        "GroveGasSensor": {
+            "NO2": 772,
+            "Ethanol": 735,
+            "VOC": 750,
+            "CO": 507,
+            "0x04": 687,
+            "0x08": 691
+        },
+        "timestamp": "2025-05-20T10:54:13.798573"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.57,
+            "Humidity": 28.75,
+            "Pressure": 1013.99,
+            "GasResistance": 123775
+        },
+        "SGP30Sensor": {
+            "CO2": 3988,
+            "TVOC": 28140
+        },
+        "GroveGasSensor": {
+            "NO2": 773,
+            "Ethanol": 738,
+            "VOC": 751,
+            "CO": 508,
+            "0x04": 682,
+            "0x08": 688
+        },
+        "timestamp": "2025-05-20T10:54:16.495085"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.57,
+            "Humidity": 28.77,
+            "Pressure": 1013.99,
+            "GasResistance": 122745
+        },
+        "SGP30Sensor": {
+            "CO2": 3993,
+            "TVOC": 28559
+        },
+        "GroveGasSensor": {
+            "NO2": 774,
+            "Ethanol": 739,
+            "VOC": 752,
+            "CO": 509,
+            "0x04": 681,
+            "0x08": 689
+        },
+        "timestamp": "2025-05-20T10:54:19.192611"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.57,
+            "Humidity": 28.78,
+            "Pressure": 1013.99,
+            "GasResistance": 122574
+        },
+        "SGP30Sensor": {
+            "CO2": 4052,
+            "TVOC": 28175
+        },
+        "GroveGasSensor": {
+            "NO2": 774,
+            "Ethanol": 740,
+            "VOC": 753,
+            "CO": 510,
+            "0x04": 679,
+            "0x08": 687
+        },
+        "timestamp": "2025-05-20T10:54:21.889957"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.58,
+            "Humidity": 28.76,
+            "Pressure": 1013.99,
+            "GasResistance": 120816
+        },
+        "SGP30Sensor": {
+            "CO2": 4104,
+            "TVOC": 28280
+        },
+        "GroveGasSensor": {
+            "NO2": 775,
+            "Ethanol": 742,
+            "VOC": 755,
+            "CO": 511,
+            "0x04": 678,
+            "0x08": 689
+        },
+        "timestamp": "2025-05-20T10:54:24.587628"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.58,
+            "Humidity": 28.76,
+            "Pressure": 1013.98,
+            "GasResistance": 120899
+        },
+        "SGP30Sensor": {
+            "CO2": 4089,
+            "TVOC": 27966
+        },
+        "GroveGasSensor": {
+            "NO2": 776,
+            "Ethanol": 744,
+            "VOC": 755,
+            "CO": 512,
+            "0x04": 634,
+            "0x08": 677
+        },
+        "timestamp": "2025-05-20T10:54:27.285128"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.58,
+            "Humidity": 28.78,
+            "Pressure": 1013.98,
+            "GasResistance": 119672
+        },
+        "SGP30Sensor": {
+            "CO2": 4091,
+            "TVOC": 28733
+        },
+        "GroveGasSensor": {
+            "NO2": 776,
+            "Ethanol": 746,
+            "VOC": 757,
+            "CO": 512,
+            "0x04": 632,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:54:29.982381"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.58,
+            "Humidity": 28.78,
+            "Pressure": 1013.98,
+            "GasResistance": 119672
+        },
+        "SGP30Sensor": {
+            "CO2": 4138,
+            "TVOC": 28733
+        },
+        "GroveGasSensor": {
+            "NO2": 777,
+            "Ethanol": 748,
+            "VOC": 757,
+            "CO": 514,
+            "0x04": 632,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:54:32.679511"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.58,
+            "Humidity": 28.79,
+            "Pressure": 1013.98,
+            "GasResistance": 119429
+        },
+        "SGP30Sensor": {
+            "CO2": 4170,
+            "TVOC": 29047
+        },
+        "GroveGasSensor": {
+            "NO2": 779,
+            "Ethanol": 749,
+            "VOC": 759,
+            "CO": 514,
+            "0x04": 633,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:54:35.376912"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.58,
+            "Humidity": 28.8,
+            "Pressure": 1013.98,
+            "GasResistance": 118232
+        },
+        "SGP30Sensor": {
+            "CO2": 4182,
+            "TVOC": 28873
+        },
+        "GroveGasSensor": {
+            "NO2": 779,
+            "Ethanol": 750,
+            "VOC": 759,
+            "CO": 515,
+            "0x04": 644,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:54:38.065067"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.59,
+            "Humidity": 28.78,
+            "Pressure": 1013.99,
+            "GasResistance": 116981
+        },
+        "SGP30Sensor": {
+            "CO2": 4214,
+            "TVOC": 29535
+        },
+        "GroveGasSensor": {
+            "NO2": 779,
+            "Ethanol": 752,
+            "VOC": 760,
+            "CO": 515,
+            "0x04": 635,
+            "0x08": 674
+        },
+        "timestamp": "2025-05-20T10:54:40.761524"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.59,
+            "Humidity": 28.78,
+            "Pressure": 1014.0,
+            "GasResistance": 117291
+        },
+        "SGP30Sensor": {
+            "CO2": 4226,
+            "TVOC": 29360
+        },
+        "GroveGasSensor": {
+            "NO2": 781,
+            "Ethanol": 754,
+            "VOC": 762,
+            "CO": 518,
+            "0x04": 636,
+            "0x08": 677
+        },
+        "timestamp": "2025-05-20T10:54:43.458228"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.59,
+            "Humidity": 28.79,
+            "Pressure": 1014.02,
+            "GasResistance": 115605
+        },
+        "SGP30Sensor": {
+            "CO2": 4261,
+            "TVOC": 30127
+        },
+        "GroveGasSensor": {
+            "NO2": 780,
+            "Ethanol": 756,
+            "VOC": 763,
+            "CO": 518,
+            "0x04": 636,
+            "0x08": 681
+        },
+        "timestamp": "2025-05-20T10:54:46.149485"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.59,
+            "Humidity": 28.79,
+            "Pressure": 1014.02,
+            "GasResistance": 115984
+        },
+        "SGP30Sensor": {
+            "CO2": 4271,
+            "TVOC": 30058
+        },
+        "GroveGasSensor": {
+            "NO2": 782,
+            "Ethanol": 757,
+            "VOC": 763,
+            "CO": 519,
+            "0x04": 640,
+            "0x08": 681
+        },
+        "timestamp": "2025-05-20T10:54:48.846947"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.59,
+            "Humidity": 28.79,
+            "Pressure": 1014.01,
+            "GasResistance": 114929
+        },
+        "SGP30Sensor": {
+            "CO2": 4244,
+            "TVOC": 29674
+        },
+        "GroveGasSensor": {
+            "NO2": 782,
+            "Ethanol": 758,
+            "VOC": 764,
+            "CO": 521,
+            "0x04": 642,
+            "0x08": 681
+        },
+        "timestamp": "2025-05-20T10:54:51.544262"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.59,
+            "Humidity": 28.79,
+            "Pressure": 1014.02,
+            "GasResistance": 113746
+        },
+        "SGP30Sensor": {
+            "CO2": 4263,
+            "TVOC": 30371
+        },
+        "GroveGasSensor": {
+            "NO2": 783,
+            "Ethanol": 759,
+            "VOC": 765,
+            "CO": 521,
+            "0x04": 644,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:54:54.242475"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.6,
+            "Humidity": 28.8,
+            "Pressure": 1014.03,
+            "GasResistance": 113746
+        },
+        "SGP30Sensor": {
+            "CO2": 4268,
+            "TVOC": 30092
+        },
+        "GroveGasSensor": {
+            "NO2": 784,
+            "Ethanol": 761,
+            "VOC": 765,
+            "CO": 521,
+            "0x04": 645,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:54:56.938993"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.6,
+            "Humidity": 28.8,
+            "Pressure": 1014.03,
+            "GasResistance": 113019
+        },
+        "SGP30Sensor": {
+            "CO2": 4310,
+            "TVOC": 30476
+        },
+        "GroveGasSensor": {
+            "NO2": 785,
+            "Ethanol": 763,
+            "VOC": 767,
+            "CO": 524,
+            "0x04": 646,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:54:59.637942"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.6,
+            "Humidity": 28.8,
+            "Pressure": 1014.03,
+            "GasResistance": 113236
+        },
+        "SGP30Sensor": {
+            "CO2": 4388,
+            "TVOC": 31069
+        },
+        "GroveGasSensor": {
+            "NO2": 785,
+            "Ethanol": 764,
+            "VOC": 767,
+            "CO": 524,
+            "0x04": 647,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:55:02.339773"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.6,
+            "Humidity": 28.82,
+            "Pressure": 1014.02,
+            "GasResistance": 112230
+        },
+        "SGP30Sensor": {
+            "CO2": 4374,
+            "TVOC": 30650
+        },
+        "GroveGasSensor": {
+            "NO2": 786,
+            "Ethanol": 765,
+            "VOC": 769,
+            "CO": 525,
+            "0x04": 646,
+            "0x08": 677
+        },
+        "timestamp": "2025-05-20T10:55:05.027032"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.6,
+            "Humidity": 28.82,
+            "Pressure": 1014.02,
+            "GasResistance": 112444
+        },
+        "SGP30Sensor": {
+            "CO2": 4354,
+            "TVOC": 31870
+        },
+        "GroveGasSensor": {
+            "NO2": 786,
+            "Ethanol": 766,
+            "VOC": 770,
+            "CO": 526,
+            "0x04": 642,
+            "0x08": 676
+        },
+        "timestamp": "2025-05-20T10:55:07.728827"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.6,
+            "Humidity": 28.82,
+            "Pressure": 1014.02,
+            "GasResistance": 111734
+        },
+        "SGP30Sensor": {
+            "CO2": 4339,
+            "TVOC": 31034
+        },
+        "GroveGasSensor": {
+            "NO2": 787,
+            "Ethanol": 768,
+            "VOC": 770,
+            "CO": 527,
+            "0x04": 650,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:55:10.426239"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.6,
+            "Humidity": 28.82,
+            "Pressure": 1014.02,
+            "GasResistance": 110271
+        },
+        "SGP30Sensor": {
+            "CO2": 4351,
+            "TVOC": 32044
+        },
+        "GroveGasSensor": {
+            "NO2": 787,
+            "Ethanol": 768,
+            "VOC": 770,
+            "CO": 527,
+            "0x04": 647,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:55:13.125832"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.6,
+            "Humidity": 28.82,
+            "Pressure": 1014.02,
+            "GasResistance": 110340
+        },
+        "SGP30Sensor": {
+            "CO2": 4374,
+            "TVOC": 31313
+        },
+        "GroveGasSensor": {
+            "NO2": 788,
+            "Ethanol": 769,
+            "VOC": 771,
+            "CO": 528,
+            "0x04": 643,
+            "0x08": 676
+        },
+        "timestamp": "2025-05-20T10:55:15.822466"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.61,
+            "Humidity": 28.83,
+            "Pressure": 1014.02,
+            "GasResistance": 110271
+        },
+        "SGP30Sensor": {
+            "CO2": 4396,
+            "TVOC": 31870
+        },
+        "GroveGasSensor": {
+            "NO2": 789,
+            "Ethanol": 771,
+            "VOC": 772,
+            "CO": 530,
+            "0x04": 642,
+            "0x08": 676
+        },
+        "timestamp": "2025-05-20T10:55:18.519522"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.6,
+            "Humidity": 28.84,
+            "Pressure": 1014.03,
+            "GasResistance": 108980
+        },
+        "SGP30Sensor": {
+            "CO2": 4408,
+            "TVOC": 31975
+        },
+        "GroveGasSensor": {
+            "NO2": 789,
+            "Ethanol": 772,
+            "VOC": 773,
+            "CO": 529,
+            "0x04": 640,
+            "0x08": 677
+        },
+        "timestamp": "2025-05-20T10:55:21.216858"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.61,
+            "Humidity": 28.83,
+            "Pressure": 1014.02,
+            "GasResistance": 109182
+        },
+        "SGP30Sensor": {
+            "CO2": 4440,
+            "TVOC": 31940
+        },
+        "GroveGasSensor": {
+            "NO2": 789,
+            "Ethanol": 773,
+            "VOC": 773,
+            "CO": 531,
+            "0x04": 638,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:55:23.915006"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.61,
+            "Humidity": 28.83,
+            "Pressure": 1014.02,
+            "GasResistance": 108446
+        },
+        "SGP30Sensor": {
+            "CO2": 4432,
+            "TVOC": 32358
+        },
+        "GroveGasSensor": {
+            "NO2": 790,
+            "Ethanol": 774,
+            "VOC": 774,
+            "CO": 532,
+            "0x04": 641,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:55:26.612448"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.61,
+            "Humidity": 28.83,
+            "Pressure": 1014.02,
+            "GasResistance": 108379
+        },
+        "SGP30Sensor": {
+            "CO2": 4447,
+            "TVOC": 32707
+        },
+        "GroveGasSensor": {
+            "NO2": 791,
+            "Ethanol": 775,
+            "VOC": 775,
+            "CO": 533,
+            "0x04": 639,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:55:29.313088"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.61,
+            "Humidity": 28.83,
+            "Pressure": 1014.01,
+            "GasResistance": 108180
+        },
+        "SGP30Sensor": {
+            "CO2": 4521,
+            "TVOC": 32637
+        },
+        "GroveGasSensor": {
+            "NO2": 792,
+            "Ethanol": 776,
+            "VOC": 776,
+            "CO": 533,
+            "0x04": 640,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:55:32.010370"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.61,
+            "Humidity": 28.83,
+            "Pressure": 1014.01,
+            "GasResistance": 107002
+        },
+        "SGP30Sensor": {
+            "CO2": 4486,
+            "TVOC": 32742
+        },
+        "GroveGasSensor": {
+            "NO2": 792,
+            "Ethanol": 776,
+            "VOC": 776,
+            "CO": 533,
+            "0x04": 640,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:55:34.710461"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.62,
+            "Humidity": 28.84,
+            "Pressure": 1014.02,
+            "GasResistance": 107002
+        },
+        "SGP30Sensor": {
+            "CO2": 4459,
+            "TVOC": 32288
+        },
+        "GroveGasSensor": {
+            "NO2": 792,
+            "Ethanol": 778,
+            "VOC": 776,
+            "CO": 535,
+            "0x04": 639,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:55:37.406645"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.62,
+            "Humidity": 28.84,
+            "Pressure": 1014.03,
+            "GasResistance": 106167
+        },
+        "SGP30Sensor": {
+            "CO2": 4575,
+            "TVOC": 32846
+        },
+        "GroveGasSensor": {
+            "NO2": 793,
+            "Ethanol": 779,
+            "VOC": 777,
+            "CO": 535,
+            "0x04": 638,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:55:40.106791"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.62,
+            "Humidity": 28.84,
+            "Pressure": 1014.03,
+            "GasResistance": 105408
+        },
+        "SGP30Sensor": {
+            "CO2": 4575,
+            "TVOC": 33021
+        },
+        "GroveGasSensor": {
+            "NO2": 793,
+            "Ethanol": 779,
+            "VOC": 777,
+            "CO": 536,
+            "0x04": 640,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:55:42.804038"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.62,
+            "Humidity": 28.84,
+            "Pressure": 1014.02,
+            "GasResistance": 104784
+        },
+        "SGP30Sensor": {
+            "CO2": 4592,
+            "TVOC": 33613
+        },
+        "GroveGasSensor": {
+            "NO2": 793,
+            "Ethanol": 780,
+            "VOC": 778,
+            "CO": 537,
+            "0x04": 639,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:55:45.501229"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.62,
+            "Humidity": 28.84,
+            "Pressure": 1014.0,
+            "GasResistance": 104722
+        },
+        "SGP30Sensor": {
+            "CO2": 4607,
+            "TVOC": 33334
+        },
+        "GroveGasSensor": {
+            "NO2": 794,
+            "Ethanol": 782,
+            "VOC": 778,
+            "CO": 537,
+            "0x04": 642,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:55:48.198371"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.62,
+            "Humidity": 28.85,
+            "Pressure": 1014.0,
+            "GasResistance": 104722
+        },
+        "SGP30Sensor": {
+            "CO2": 4614,
+            "TVOC": 33160
+        },
+        "GroveGasSensor": {
+            "NO2": 794,
+            "Ethanol": 782,
+            "VOC": 779,
+            "CO": 538,
+            "0x04": 643,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:55:50.896276"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.63,
+            "Humidity": 28.85,
+            "Pressure": 1014.01,
+            "GasResistance": 104413
+        },
+        "SGP30Sensor": {
+            "CO2": 4607,
+            "TVOC": 33683
+        },
+        "GroveGasSensor": {
+            "NO2": 795,
+            "Ethanol": 783,
+            "VOC": 779,
+            "CO": 539,
+            "0x04": 649,
+            "0x08": 684
+        },
+        "timestamp": "2025-05-20T10:55:53.593845"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.63,
+            "Humidity": 28.84,
+            "Pressure": 1014.0,
+            "GasResistance": 104167
+        },
+        "SGP30Sensor": {
+            "CO2": 4636,
+            "TVOC": 33474
+        },
+        "GroveGasSensor": {
+            "NO2": 795,
+            "Ethanol": 784,
+            "VOC": 781,
+            "CO": 541,
+            "0x04": 651,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:55:56.284383"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.63,
+            "Humidity": 28.85,
+            "Pressure": 1014.01,
+            "GasResistance": 103617
+        },
+        "SGP30Sensor": {
+            "CO2": 4612,
+            "TVOC": 33404
+        },
+        "GroveGasSensor": {
+            "NO2": 796,
+            "Ethanol": 785,
+            "VOC": 780,
+            "CO": 540,
+            "0x04": 650,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:55:58.982937"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.63,
+            "Humidity": 28.85,
+            "Pressure": 1014.0,
+            "GasResistance": 103678
+        },
+        "SGP30Sensor": {
+            "CO2": 4641,
+            "TVOC": 34171
+        },
+        "GroveGasSensor": {
+            "NO2": 796,
+            "Ethanol": 786,
+            "VOC": 782,
+            "CO": 541,
+            "0x04": 647,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:56:01.670279"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.63,
+            "Humidity": 28.85,
+            "Pressure": 1013.99,
+            "GasResistance": 102894
+        },
+        "SGP30Sensor": {
+            "CO2": 4641,
+            "TVOC": 33613
+        },
+        "GroveGasSensor": {
+            "NO2": 796,
+            "Ethanol": 787,
+            "VOC": 781,
+            "CO": 541,
+            "0x04": 646,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:56:04.357339"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.64,
+            "Humidity": 28.86,
+            "Pressure": 1013.98,
+            "GasResistance": 102417
+        },
+        "SGP30Sensor": {
+            "CO2": 4685,
+            "TVOC": 33962
+        },
+        "GroveGasSensor": {
+            "NO2": 797,
+            "Ethanol": 787,
+            "VOC": 782,
+            "CO": 543,
+            "0x04": 644,
+            "0x08": 678
+        },
+        "timestamp": "2025-05-20T10:56:07.054819"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.64,
+            "Humidity": 28.87,
+            "Pressure": 1013.98,
+            "GasResistance": 102004
+        },
+        "SGP30Sensor": {
+            "CO2": 4688,
+            "TVOC": 34589
+        },
+        "GroveGasSensor": {
+            "NO2": 798,
+            "Ethanol": 788,
+            "VOC": 782,
+            "CO": 544,
+            "0x04": 643,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:56:09.751988"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.64,
+            "Humidity": 28.87,
+            "Pressure": 1013.98,
+            "GasResistance": 101769
+        },
+        "SGP30Sensor": {
+            "CO2": 4727,
+            "TVOC": 34241
+        },
+        "GroveGasSensor": {
+            "NO2": 799,
+            "Ethanol": 789,
+            "VOC": 783,
+            "CO": 544,
+            "0x04": 642,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:56:12.449580"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.64,
+            "Humidity": 28.86,
+            "Pressure": 1013.98,
+            "GasResistance": 101245
+        },
+        "SGP30Sensor": {
+            "CO2": 4769,
+            "TVOC": 33787
+        },
+        "GroveGasSensor": {
+            "NO2": 799,
+            "Ethanol": 789,
+            "VOC": 783,
+            "CO": 545,
+            "0x04": 641,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:56:15.146913"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.64,
+            "Humidity": 28.86,
+            "Pressure": 1013.98,
+            "GasResistance": 100326
+        },
+        "SGP30Sensor": {
+            "CO2": 4739,
+            "TVOC": 34031
+        },
+        "GroveGasSensor": {
+            "NO2": 799,
+            "Ethanol": 790,
+            "VOC": 784,
+            "CO": 545,
+            "0x04": 648,
+            "0x08": 684
+        },
+        "timestamp": "2025-05-20T10:56:17.843241"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.64,
+            "Humidity": 28.86,
+            "Pressure": 1013.99,
+            "GasResistance": 100440
+        },
+        "SGP30Sensor": {
+            "CO2": 4801,
+            "TVOC": 34275
+        },
+        "GroveGasSensor": {
+            "NO2": 799,
+            "Ethanol": 792,
+            "VOC": 785,
+            "CO": 546,
+            "0x04": 645,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:56:20.543190"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.64,
+            "Humidity": 28.87,
+            "Pressure": 1013.99,
+            "GasResistance": 100212
+        },
+        "SGP30Sensor": {
+            "CO2": 4801,
+            "TVOC": 34066
+        },
+        "GroveGasSensor": {
+            "NO2": 800,
+            "Ethanol": 792,
+            "VOC": 784,
+            "CO": 548,
+            "0x04": 652,
+            "0x08": 686
+        },
+        "timestamp": "2025-05-20T10:56:23.241013"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.65,
+            "Humidity": 28.89,
+            "Pressure": 1013.98,
+            "GasResistance": 99648
+        },
+        "SGP30Sensor": {
+            "CO2": 4835,
+            "TVOC": 35182
+        },
+        "GroveGasSensor": {
+            "NO2": 800,
+            "Ethanol": 793,
+            "VOC": 786,
+            "CO": 548,
+            "0x04": 652,
+            "0x08": 685
+        },
+        "timestamp": "2025-05-20T10:56:25.939002"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.65,
+            "Humidity": 28.89,
+            "Pressure": 1013.98,
+            "GasResistance": 99312
+        },
+        "SGP30Sensor": {
+            "CO2": 4771,
+            "TVOC": 34450
+        },
+        "GroveGasSensor": {
+            "NO2": 801,
+            "Ethanol": 794,
+            "VOC": 785,
+            "CO": 549,
+            "0x04": 654,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:56:28.636507"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.65,
+            "Humidity": 28.89,
+            "Pressure": 1013.97,
+            "GasResistance": 99536
+        },
+        "SGP30Sensor": {
+            "CO2": 4825,
+            "TVOC": 34659
+        },
+        "GroveGasSensor": {
+            "NO2": 802,
+            "Ethanol": 794,
+            "VOC": 786,
+            "CO": 549,
+            "0x04": 655,
+            "0x08": 681
+        },
+        "timestamp": "2025-05-20T10:56:31.332438"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.65,
+            "Humidity": 28.88,
+            "Pressure": 1013.97,
+            "GasResistance": 99145
+        },
+        "SGP30Sensor": {
+            "CO2": 4837,
+            "TVOC": 35147
+        },
+        "GroveGasSensor": {
+            "NO2": 802,
+            "Ethanol": 795,
+            "VOC": 787,
+            "CO": 550,
+            "0x04": 655,
+            "0x08": 681
+        },
+        "timestamp": "2025-05-20T10:56:34.029687"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.65,
+            "Humidity": 28.9,
+            "Pressure": 1013.97,
+            "GasResistance": 98100
+        },
+        "SGP30Sensor": {
+            "CO2": 4830,
+            "TVOC": 35670
+        },
+        "GroveGasSensor": {
+            "NO2": 802,
+            "Ethanol": 796,
+            "VOC": 787,
+            "CO": 550,
+            "0x04": 647,
+            "0x08": 679
+        },
+        "timestamp": "2025-05-20T10:56:36.722356"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.65,
+            "Humidity": 28.9,
+            "Pressure": 1013.97,
+            "GasResistance": 98538
+        },
+        "SGP30Sensor": {
+            "CO2": 4869,
+            "TVOC": 35670
+        },
+        "GroveGasSensor": {
+            "NO2": 803,
+            "Ethanol": 796,
+            "VOC": 787,
+            "CO": 551,
+            "0x04": 645,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:56:39.419459"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.66,
+            "Humidity": 28.89,
+            "Pressure": 1013.97,
+            "GasResistance": 97667
+        },
+        "SGP30Sensor": {
+            "CO2": 4901,
+            "TVOC": 36332
+        },
+        "GroveGasSensor": {
+            "NO2": 803,
+            "Ethanol": 796,
+            "VOC": 788,
+            "CO": 552,
+            "0x04": 646,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:56:42.116926"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.66,
+            "Humidity": 28.89,
+            "Pressure": 1013.98,
+            "GasResistance": 97398
+        },
+        "SGP30Sensor": {
+            "CO2": 4918,
+            "TVOC": 35461
+        },
+        "GroveGasSensor": {
+            "NO2": 803,
+            "Ethanol": 797,
+            "VOC": 788,
+            "CO": 553,
+            "0x04": 644,
+            "0x08": 680
+        },
+        "timestamp": "2025-05-20T10:56:44.813554"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.66,
+            "Humidity": 28.89,
+            "Pressure": 1013.97,
+            "GasResistance": 97452
+        },
+        "SGP30Sensor": {
+            "CO2": 4938,
+            "TVOC": 35844
+        },
+        "GroveGasSensor": {
+            "NO2": 804,
+            "Ethanol": 798,
+            "VOC": 788,
+            "CO": 553,
+            "0x04": 645,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:56:47.511222"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.66,
+            "Humidity": 28.88,
+            "Pressure": 1013.97,
+            "GasResistance": 97131
+        },
+        "SGP30Sensor": {
+            "CO2": 4977,
+            "TVOC": 36297
+        },
+        "GroveGasSensor": {
+            "NO2": 804,
+            "Ethanol": 798,
+            "VOC": 788,
+            "CO": 554,
+            "0x04": 645,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:56:50.208405"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.66,
+            "Humidity": 28.89,
+            "Pressure": 1013.96,
+            "GasResistance": 96653
+        },
+        "SGP30Sensor": {
+            "CO2": 4855,
+            "TVOC": 35495
+        },
+        "GroveGasSensor": {
+            "NO2": 804,
+            "Ethanol": 799,
+            "VOC": 789,
+            "CO": 554,
+            "0x04": 644,
+            "0x08": 682
+        },
+        "timestamp": "2025-05-20T10:56:52.905705"
+    },
+    {
+        "BME680Sensor": {
+            "Temperature": 27.66,
+            "Humidity": 28.9,
+            "Pressure": 1013.97,
+            "GasResistance": 96076
+        },
+        "SGP30Sensor": {
+            "CO2": 4877,
+            "TVOC": 36158
+        },
+        "GroveGasSensor": {
+            "NO2": 804,
+            "Ethanol": 800,
+            "VOC": 790,
+            "CO": 555,
+            "0x04": 646,
+            "0x08": 683
+        },
+        "timestamp": "2025-05-20T10:56:55.603076"
+    }
+]

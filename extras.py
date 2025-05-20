@@ -73,3 +73,5 @@ plt.ylabel('PC2')
 plt.title('Sensor Data in Principal Component Space')
 plt.grid(True)
 plt.show()
+
+print(classification_report(y_test, y_pred, zero_division=0))

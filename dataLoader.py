@@ -18,7 +18,7 @@ def loadTrainData() -> list[list]:
             label = LABELS[f.split('_')[0]]
             file_path = os.path.join('Data/train_data', f)
             transformed_data = transform(file_path, label)
-            full_data.extend(transformed_data)
+            full_data.append(transformed_data)
 
     return full_data
 
@@ -30,6 +30,9 @@ def loadTestData() -> list[list]:
             label = LABELS[f.split('_')[0]]
             file_path = os.path.join('Data/test_data', f)
             transformed_data = transform(file_path, label)
-            full_data.extend(transformed_data)
+            full_data.append(transformed_data)
 
     return full_data
+
+def loadAllData() -> list[list]:
+    return loadTrainData() + loadTestData()
