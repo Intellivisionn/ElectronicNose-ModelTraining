@@ -6,6 +6,7 @@ LABELS = {
     'ba': Label.BANANA.value,
     'bo': Label.BLOOD_ORANGE.value,
     'bb': Label.BLUEBERRY.value,
+    'gr': Label.GRAPE.value,
     'la': Label.LAVENDER.value,
     'pi': Label.PINEAPPLE.value
 }

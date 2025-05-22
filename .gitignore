@@ -175,3 +175,6 @@ cython_debug/
 
 #JSON Files
 .json
+
+#Data Files
+Data/*
