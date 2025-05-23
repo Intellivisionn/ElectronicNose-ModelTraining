@@ -1,10 +1,11 @@
 import numpy as np
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.model_selection import KFold
+
 from ensembler import Ensembler
 from enums import Label
 import dataLoader
 import setup
-from sklearn.model_selection import KFold
 
 def trainModel(ensembler):
     trainData = dataLoader.loadTrainData()
