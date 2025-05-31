@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import KFold
+from sklearn.preprocessing import StandardScaler
 
 from ensembler import Ensembler
 from enums import Label
@@ -13,6 +14,9 @@ def trainModel(ensembler):
     X_train = [reading[:-1] for reading in trainData]
     y_train = [reading[-1] for reading in trainData]
 
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train).tolist()
+
     ensembler.fit(X_train, y_train)
 
 def testModel(ensembler):
@@ -21,6 +25,9 @@ def testModel(ensembler):
     X_test = [reading[:-1] for reading in testData]
     y_test = [reading[-1] for reading in testData]
 
+    scaler = StandardScaler()
+    X_test = scaler.fit_transform(X_test).tolist()
+
     y_pred, confs = ensembler.predict(X_test)
 
     ensembler.modelTest(X_test, y_test)
@@ -28,12 +35,13 @@ def testModel(ensembler):
     print("Predictions:")
     for i, pred in enumerate(y_pred):
         if pred == y_test[i]:
-            print(f"\033[92mSample {i}: {Label(y_test[i]).name} (predicted {Label(pred).name} with {int(confs[i][pred] * 100)}% confidence)\033[0m")
+            print(f"\033[92mSample {i+1}: {Label(y_test[i]).name} (predicted {Label(pred).name} with {int(confs[i][pred] * 100)}% confidence)\033[0m")
         else:
-            print(f"\033[91mSample {i}: {Label(y_test[i]).name} (predicted {Label(pred).name} with {int(confs[i][pred] * 100)}% confidence, {Label(y_test[i]).name} had {int(confs[i][y_test[i]] * 100)}%)\033[0m")
+            print(f"\033[91mSample {i+1}: {Label(y_test[i]).name} (predicted {Label(pred).name} with {int(confs[i][pred] * 100)}% confidence, {Label(y_test[i]).name} had {int(confs[i][y_test[i]] * 100)}%)\033[0m")
 
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Accuracy: {accuracy:.2f}")
+    print(classification_report(y_test, y_pred, zero_division=0))
 
 def crossValidate(ensembler, k_folds=0):
     allData = dataLoader.loadAllData()

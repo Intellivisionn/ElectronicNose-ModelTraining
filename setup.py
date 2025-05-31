@@ -12,6 +12,9 @@ class Model:
         self.model = model
         self.name = name
 
+    def predict(self, X):
+        return self.model.predict(X)
+
 MODELS = [
     Model(RandomForestClassifier(), 'RandomForest'),
     Model(GradientBoostingClassifier(), 'GradientBoosting'),
@@ -19,8 +22,3 @@ MODELS = [
     Model(CatBoostClassifier(verbose=0), 'CatBoost'),
     Model(LogisticRegression(max_iter=1000), 'LogisticRegression'),
 ]
-    
-#Model(SVC(kernel='rbf', probability=True), 'SVC'),
-#Model(KNeighborsClassifier(n_neighbors=5), 'KNeighbors'),
-#Model(MLPClassifier(hidden_layer_sizes=(100,), max_iter=500), 'MLPClassifier'),
-#Model(LGBMClassifier(), 'LightGBM'),

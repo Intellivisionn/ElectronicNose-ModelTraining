@@ -1,5 +1,6 @@
 import json
 import numpy as np
+from sklearn.preprocessing import StandardScaler
 
 def transform(file_path, label_value=None) -> list[float]:
 
@@ -8,7 +9,7 @@ def transform(file_path, label_value=None) -> list[float]:
 
     timepoint_vectors = []
 
-    for data_point in data[:90]:
+    for data_point in data[:99]:
         data_point_attr = []
         for sensor, readings in data_point.items():
             if sensor == "timestamp" or sensor == "SGP30Sensor":
